@@ -44,7 +44,7 @@ p{
 }
 
 .logo {
-    width: 25%;
+    width: 15%;
 }
 
 .nav-link {
@@ -59,11 +59,12 @@ p{
 
 /* Title section */
 #inicio{    
-    text-align: center;
+    
     padding-top: 5%;
 }
 
 .inicio-img{
+    text-align: left;
     width: 50%;
 }
 
@@ -128,6 +129,7 @@ p{
 }
 
 .hab-icon {
+    display: block;
     margin: 30px;
     width: 4rem;
 }
@@ -140,17 +142,33 @@ p{
     text-align: left;
 }
 
+.mobile {
+    display: none;
+}
+
 /* Projetos */
-#projetos {
+
+.pro-header, .cont-header {
     text-align: center;
 }
 
-.pro-header, .cont-header {
-    margin: 40px;
+.project-content {
+    margin-top: 4rem;
 }
 
-.card {
-    margin: 0 auto;
+.portfolio-image {
+    margin: 0 20px;
+    float: left;
+    width: 8%;
+}
+
+.project-title {
+    color: gray;
+}
+
+.project-desc {
+    text-align: left;
+    line-height: 2.5;
 }
 
 /* Contatos */
@@ -172,15 +190,49 @@ footer .container-fluid {
     padding: 5% 15%;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
+    /* Navbar */
+    .navbar-brand {
+        width: 30%;
+    }
+    
+    .logo {
+        width: 70%;
+    }
+    
+    /*Inicio*/
     #inicio {
         text-align: center;
     }
+    
     .inicio-img {
         margin: 80px;
     }
+    
+    .boas-vindas {
+        text-align: center;
+    }
+    
+    .inicio-p {
+        line-height: 2.5;
+    }
+
+    /*Habilidades*/
+    .hab-box {
+        margin-top: 1rem;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: inline-block;
+    }
+
     .hab-icon {
         display: inline-block;
         width: 3rem;
+        margin: 20px;
     }
 }
