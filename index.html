@@ -4,12 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
     <title> Portfólio | Diego Trevisan </title>
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!--CSS-->
     <link rel="stylesheet" href="styles.css">
+    <!--Hab Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
+    <!--Scroll Efects-->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!--Font Awesome Icons-->
     <script src="https://kit.fontawesome.com/e55ded644d.js" crossorigin="anonymous"></script>
+    <!--fav icon-->
     <link rel="icon" href="images/logo-icon.ico">
 </head>
 <body>
@@ -62,18 +70,18 @@
       <h2 class="hab-header">Habilidades</h2>
       <div class="row hab-box">
         <div class="col-lg-3">
-          <img id="javascript" class="hab-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-          <img id="nodejs" class="hab-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-          <img id="bootstrap" class="hab-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+          <i id="javascript" class="devicon-javascript-plain hab-icon"></i>
+          <i id="nodejs" class="devicon-nodejs-plain hab-icon"></i>
+          <i id="bootstrap" class="devicon-bootstrap-plain hab-icon"></i>
         </div>
         <div class="col-lg-3">
-          <img id="html" class="hab-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-          <img id="css" class="hab-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-          <img id="git" class="hab-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+          <i id="html" class="devicon-html5-plain hab-icon"></i>
+          <i id="css" class="devicon-css3-plain hab-icon"></i>
+          <i id="git" class="devicon-git-plain hab-icon"></i>
         </div>
         <div class="col-lg-3">
-          <img id="python" class="hab-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-          <img id="react" class="hab-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+          <i id="python" class="devicon-python-plain hab-icon"></i>
+          <i id="react" class="devicon-react-plain hab-icon"></i>
         </div>
         <div class="col-lg-3">
           <br>
@@ -89,13 +97,18 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="project-content">
-            <img class="portfolio-image" src="images/Diego-Logo.png" alt="icon">
+            <img class="portfolio-image" src="images/web-development.png" alt="Desenvolvimento-Web-Image">
             <h4 class="project-title">Portfólio Website</h4>
-            <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="project-desc">Um projeto inteiramente desenvolvido por mim, utilizando as seguintes tecnologias básicas de desenvolvimento web: HTML 5, CSS 3 e JavaScript. E também, afim de otimizar a criação e implementação da responsividade para mobile, foi inserido o framework Bootstrap 5.</p>
+            <p>Git hub link</p>
           </div>
         </div>
-        <div class="col-lg-6">
-          
+        <div class="col-lg-12">
+          <div class="project-content">
+            <img class="construction-image" src="images/coding.png" alt="Construção-Icon">
+            <h4 class="construction-title">Em construção</h4>
+            <p class="construction-desc">⚙️</p>
+          </div>
         </div>
       </div>
       
@@ -115,15 +128,20 @@
         </div>
       </div>
     </div>
-  </section>  
-  <script src="habilidades.js" charset="utf-8"></script>
-  <script src="text-animation.js" charset="utf-8"></script>
-  
+  </section>
+
+
+ 
   <footer>
     <div class="container-fluid white-box">
       <p>&copy; Diego Trevisan</p>
     </div>
   </footer>
+
+  <script src="habilidade-hover.js" charset="utf-8"></script>
+  <script src="habilidades.js" charset="utf-8"></script>
+  <script src="text-animation.js" charset="utf-8"></script>
+
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 #inicio, .hab-box, .hab-header{
     visibility: hidden;
 }
+
 .white-box {
     background-color: white;
     color:black;
@@ -58,8 +59,7 @@ p{
 }
 
 /* Title section */
-#inicio{    
-    
+#inicio, #habilidades, #projetos, #contato{    
     padding-top: 5%;
 }
 
@@ -131,7 +131,7 @@ p{
 .hab-icon {
     display: block;
     margin: 30px;
-    width: 4rem;
+    font-size: 4rem;
 }
 
 .hab-icon:hover {
@@ -157,8 +157,14 @@ p{
 }
 
 .portfolio-image {
-    margin: 0 20px;
+    margin: 0 50px;
     float: left;
+    width: 6%;
+}
+
+.construction-image {
+    margin: 0 50px;
+    float: right;
     width: 8%;
 }
 
@@ -166,8 +172,18 @@ p{
     color: gray;
 }
 
+.construction-title {
+    color: gray;
+    text-align: right;
+}
+
 .project-desc {
     text-align: left;
+    line-height: 2.5;
+}
+
+.construction-desc {
+    text-align: right;
     line-height: 2.5;
 }
 
@@ -232,7 +248,7 @@ footer .container-fluid {
 
     .hab-icon {
         display: inline-block;
-        width: 3rem;
+        font-size: 3rem;
         margin: 20px;
     }
 }
