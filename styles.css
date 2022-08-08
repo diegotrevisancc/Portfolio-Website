@@ -186,6 +186,16 @@ p{
     line-height: 2.5;
 }
 
+.project-links {
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-links:hover {
+    color: gray;
+}
+
 .construction-desc {
     text-align: right;
     line-height: 2.5;
