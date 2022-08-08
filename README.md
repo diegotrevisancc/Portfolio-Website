@@ -1,8 +1,8 @@
-### Portfólio
+### 🖥️ Portfólio
 <hr>
 <p> É um breve projeto realizado com o fim de fixar conhecimentos em tecnologias básicas de front-end </p>
 <br> 
-## Referências
+## 📌 Referências
 <hr>
 <ul>
   <li>https://fontawesome.com/</li>
