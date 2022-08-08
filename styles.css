@@ -41,11 +41,15 @@ p{
 
 /* Navbar */
 #navbar .container-fluid {
-    padding: 1% 15%;
+    padding: 0.8% 15%;
+}
+
+.navbar-brand {
+    width: 200px;
 }
 
 .logo {
-    width: 15%;
+    width: 35%;
 }
 
 .nav-link {
@@ -95,9 +99,9 @@ p{
     text-align: left;
 }
 
-.linkedin-inicio{
+.linkedin-button{
     margin-top: 3rem;
-    width: 70%;
+    width: 90%;
     height: 4rem;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5rem;
@@ -109,11 +113,11 @@ p{
 	cursor: pointer;
 }
 
-.linkedin-inicio i {
+.linkedin-button i {
     margin-right: 5px;
 }
 
-.linkedin-inicio:hover {
+.linkedin-button:hover {
     color: white;
     background-color: black;
 }
@@ -142,7 +146,7 @@ p{
     text-align: left;
 }
 
-.mobile {
+.mobile-text {
     display: none;
 }
 
@@ -156,7 +160,7 @@ p{
     margin-top: 4rem;
 }
 
-.portfolio-image {
+.website-image {
     margin: 0 50px;
     float: left;
     width: 6%;
@@ -193,6 +197,7 @@ p{
 }
 
 .cont-icons {
+    font-size: 4rem;
     margin: 100px;
     color: white;
 }
@@ -207,9 +212,11 @@ footer .container-fluid {
 }
 
 @media screen and (max-width:1000px) {
+    
     /* Navbar */
+    
     .navbar-brand {
-        width: 30%;
+        width: 20%;
     }
     
     .logo {
@@ -217,6 +224,7 @@ footer .container-fluid {
     }
     
     /*Inicio*/
+    
     #inicio {
         text-align: center;
     }
@@ -234,15 +242,16 @@ footer .container-fluid {
     }
 
     /*Habilidades*/
+    
     .hab-box {
         margin-top: 1rem;
     }
 
-    .desktop {
+    .desktop-text {
         display: none;
     }
 
-    .mobile {
+    .mobile-text {
         display: inline-block;
     }
 
@@ -250,5 +259,27 @@ footer .container-fluid {
         display: inline-block;
         font-size: 3rem;
         margin: 20px;
+    }
+
+    /*Projetos*/
+
+    .website-image, .construction-image {
+        width: 20%;
+        float: none;
+        margin: 30px;
+    }
+    .project-content, .construction-title {
+        text-align: center;
+        margin: 0;
+    }
+    .project-desc, .construction-desc {
+        text-align: left;
+    }
+
+    /*Contatos*/
+    
+    .cont-icons {
+        margin: 50px;
+        font-size: 2rem;
     }
 }
